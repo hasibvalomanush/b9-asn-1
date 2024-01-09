@@ -1,3 +1,15 @@
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+.font-merriweather {
+    font-family: 'Merriweather', serif;
+}    
+main {
+    max-width: 1320px;
+    margin: auto;
+}
+
+
 /* banner css */
 .banner {
     position: relative;
@@ -64,3 +76,305 @@
     flex-shrink: 0;
 }
 /* ^5 % css ends */
+/* welcome css*/
+.content2 {
+    max-height: 600px;
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    border-radius: 16px;
+    margin-bottom: 180px;
+    
+}
+
+.content2-positioning1 {
+    padding: 126px 0 126px 126px;
+}
+
+.content2-positioning2 {
+
+    padding-right: 120px;
+}
+
+.content2-image {
+    max-width: 320px;
+    max-height: 460px;
+    
+}
+
+.content2-tittle{
+    color: #FFF;    
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 0px;
+}
+
+.content2-description {
+    color: white;
+    opacity: 80%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.primary-button {
+    background-color: #F00;
+    color: #FFF;
+    padding: 20px;
+    border: 0;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+/* welcome css ends */
+/* event css */
+
+.content3 { 
+    text-align: center;
+    padding: 100px 300px;
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 600px;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #e12615, #FFFFFF); 
+}
+.content3-text {
+    color: red;
+
+}   
+/* event css ends */
+/* offer css */
+.content4 {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.content4a {
+    width: 30%;
+}
+ 
+.content4a-tittle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.content4a-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.content4a-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.content4b {
+    width: 30%;
+}
+
+
+.content4b-image {
+    border-radius: 50%;
+    padding: 20px;
+    border: 15px solid #F00;
+    margin-top: 45px;
+}
+
+.content4c {
+    width: 30%;
+}
+
+.content4c-tittle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.content4c-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.content4c-image{
+    margin-top: 40px;
+}
+/* offer css ends */
+
+/* portfolio css */
+.content5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.content5-tittle {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+.content5-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+.content5a{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.content5-images {
+    position: relative;
+    overflow: hidden;
+}
+
+.content5-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.content5-images:hover img {
+    transform: scale(1.1);
+}
+
+.content5-images::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s;
+    pointer-events: none;
+}
+
+.content5-images:hover::before {
+    border-color: brown;
+}
+
+
+/* portfolio ends */
+/* subscription css */
+.content6 {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 210px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content6-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+.content6-image  {
+    margin-bottom: 40px;
+}
+
+.input1 {
+    position: relative;
+    padding: 25px 250px 25px 30px;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+}
+
+.input2 {
+    position: relative;
+    padding: 20px 54px;
+    border-radius: 0 50px 50px 0;
+    color: #FFF;
+    border: 0;
+    background-color: #F00;
+    font-family: inter;
+    font-weight: bold;
+    left: -5px;
+    cursor: pointer;
+}
+/* subscription css ends */
+/* footer css */
+footer {
+    background-color: #070211;
+    padding: 120px 140px;
+}
+.content7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content7-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.content7b {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 80px;
+}
+
+.content7b a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    opacity: 25%;
+    margin: 50px 0px;
+}
+
+
+.content7c,
+a {
+    text-align: center;
+    margin-right: 24px;
+}
+
+.content7d {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content7d a {
+    text-decoration: none;
+}
