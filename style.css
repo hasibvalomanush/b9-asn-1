@@ -1,0 +1,66 @@
+/* banner css */
+.banner {
+    position: relative;
+    background-image:url(/images/Banner\ Image.png);
+    background-repeat: no-repeat;   
+    background-position: center;
+    border-radius: 30px;
+}
+.banner-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+    padding: 177px 531px 0px 530px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 25px;
+    padding: 0 344px 177px 344px;
+}
+/* banner css ends */
+/* 65% css*/
+.content1 {
+    font-family: inter;
+    text-align: center;
+    margin: 120px 0;
+}
+
+.content1-title{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.content1-description{
+    margin-top: 20px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.content1-title2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.content1-image {
+    margin-top: 20px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+/* ^5 % css ends */
